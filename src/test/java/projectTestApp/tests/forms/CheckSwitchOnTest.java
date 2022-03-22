@@ -1,19 +1,22 @@
 package projectTestApp.tests.forms;
 
 import io.qameta.allure.Description;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import projectTestApp.base.BaseTest;
+import projectTestApp.listeners.AllureListener;
 
-public class CheckSwitchOffTest extends BaseTest {
+@Listeners(AllureListener.class)
+public class CheckSwitchOnTest extends BaseTest {
 
     public static final String SWITCH_OFF = "Click to turn the switch OFF";
 
-    @Test
+    @Test (priority = 2)
     @Description("Проверяем работу Switch на экране Forms.")
     public void checkSwitchForms() {
         openApp()
                 .clickFormsMenuButton()
-                .checkFormsSwitchOff(SWITCH_OFF);
+                .checkFormsSwitchOn(SWITCH_OFF);
     }
 
 }

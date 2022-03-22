@@ -6,14 +6,14 @@
             <package name="projectTestApp.tests.loadingApp"/>
         </packages>
     </test>
-    <test name="LoginPage">
-        <packages>
-            <package name="projectTestApp.tests.login"/>
-        </packages>
-    </test>
     <test name="MainPage">
         <packages>
             <package name="projectTestApp.tests.main"/>
+        </packages>
+    </test>
+    <test name="LoginPage">
+        <packages>
+            <package name="projectTestApp.tests.login"/>
         </packages>
     </test>
     <test name="FormsPage">
