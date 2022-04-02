@@ -1,4 +1,4 @@
-package projectTestApp.tests.login;
+package projectTestApp.tests.loginPage;
 
 import io.qameta.allure.Description;
 import projectTestApp.base.BaseTest;
@@ -7,16 +7,15 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 @Listeners(AllureListener.class)
-public class CheckErrorTextTest extends BaseTest {
+public class CheckFailErrorTextTest extends BaseTest {
 
     public static final String VALID_EMAIL_ADDRESS = "Please enter a valid email address";
 
-    @Test (priority = 2)
-    @Description("Проверяем сообщение об ошибке при невалидном email.")
-    public void CheckEmptyEmail() {
+    @Test (priority = 3)
+    @Description("Проверяем поведения теста при падении проверки сообщения об ошибке валидного email")
+    public void CheckFailEmptyEmail() {
         openApp()
                 .clickLoginMenuButton()
-                .clickLoginButton()
                 .checkLoginErrorText(VALID_EMAIL_ADDRESS);
     }
 

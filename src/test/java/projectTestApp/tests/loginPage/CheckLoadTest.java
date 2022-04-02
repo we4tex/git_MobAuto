@@ -1,4 +1,4 @@
-package projectTestApp.tests.login;
+package projectTestApp.tests.loginPage;
 
 import io.qameta.allure.Description;
 import org.testng.annotations.Listeners;

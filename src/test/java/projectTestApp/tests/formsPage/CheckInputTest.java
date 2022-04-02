@@ -1,4 +1,4 @@
-package projectTestApp.tests.forms;
+package projectTestApp.tests.formsPage;
 
 import io.qameta.allure.Description;
 import org.testng.annotations.Listeners;
