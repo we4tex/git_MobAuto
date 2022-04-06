@@ -1,4 +1,4 @@
-package projectTestApp.tests.main;
+package projectTestApp.tests.mainPage;
 
 import io.qameta.allure.Description;
 import projectTestApp.base.BaseTest;

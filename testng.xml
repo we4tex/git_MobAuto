@@ -8,17 +8,22 @@
     </test>
     <test name="MainPage">
         <packages>
-            <package name="projectTestApp.tests.main"/>
+            <package name="projectTestApp.tests.mainPage"/>
         </packages>
     </test>
     <test name="LoginPage">
         <packages>
-            <package name="projectTestApp.tests.login"/>
+            <package name="projectTestApp.tests.loginPage"/>
         </packages>
     </test>
     <test name="FormsPage">
         <packages>
-            <package name="projectTestApp.tests.forms"/>
+            <package name="projectTestApp.tests.formsPage"/>
+        </packages>
+    </test>
+    <test name="SwipePage">
+        <packages>
+            <package name="projectTestApp.tests.swipePage"/>
         </packages>
     </test>
 </suite>
