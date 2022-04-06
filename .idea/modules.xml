@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/git_MobAuto.iml" filepath="$PROJECT_DIR$/.idea/git_MobAuto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/git_MobAuto.iml" filepath="$PROJECT_DIR$/git_MobAuto.iml" />
     </modules>
   </component>
 </project>
